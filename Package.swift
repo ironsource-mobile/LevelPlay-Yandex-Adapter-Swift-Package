@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "YandexAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/yandex-adapter/5.4.0/ISYandexAdapter5.4.0.zip",
-      checksum: "f83b1a73d0eeedaeb86b313b5aac00a5927d2f59b2f310cca34e5f23beae3b34"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/yandex-adapter/5.5.0/ISYandexAdapter5.5.0.zip",
+      checksum: "b53b3539d029ce135497b1f71ccd001041ecfe061e5238edcacdb9af95d7558d"
     )
   ]
 )
