@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "YandexAdapter", targets: ["YandexAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/yandexmobile/yandex-ads-sdk-ios", exact: "7.18.1"),
+    .package(url: "https://github.com/yandexmobile/yandex-ads-sdk-ios", exact: "7.18.4"),
     .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
