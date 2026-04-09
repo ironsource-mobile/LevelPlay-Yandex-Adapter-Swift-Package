@@ -30,7 +30,7 @@ dependencies: [
 
 This package includes:
 - LevelPlay iOS SDK (Unity Mediation SDK)
-- Yandex SDK v7.18.1
+- Yandex SDK
 
 ## Documentation
 
