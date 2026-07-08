@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "YandexAdapter", targets: ["YandexAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/yandexmobile/yandex-ads-sdk-ios", exact: "8.2.0"),
+    .package(url: "https://github.com/yandexmobile/yandex-ads-sdk-ios", exact: "8.2.1"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "YandexAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/yandex-adapter/5.10.0/ISYandexAdapter5.10.0.zip",
-      checksum: "19fcf97d532f2b7cd066ed8a9cbfc5d8389a3a1e00ad5a405b685c536cdf835a"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/yandex-adapter/5.11.0/ISYandexAdapter5.11.0.zip",
+      checksum: "69d349ef2c7d91cbc543ed92675beef47045083a0c9c3ef594ed5ec0cd558a94"
     )
   ]
 )
