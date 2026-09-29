@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "LevelPlay-Yandex-Adapter-Swift-Package",
-  platforms: [.iOS("15.0")],
+  platforms: [.iOS(.v15)],
   products: [
     .library(name: "YandexAdapter", targets: ["YandexAdapter"]),
   ],
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "YandexAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/yandex-adapter/5.14.0/ISYandexAdapter5.14.0.zip",
-      checksum: "c87466accbb9877f6ca8a38465b1c0f12e5a6b57de3dd076f84eefcead256919"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/yandex-adapter/5.15.0/ISYandexAdapter5.15.0.zip",
+      checksum: "92bd3b26c0a19fae17b4fc510895a9739cc44b219c79515d6c8431b889a3cdc4"
     )
   ]
 )
